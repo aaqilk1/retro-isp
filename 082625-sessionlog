@@ -1,0 +1,550 @@
+
+System Bootstrap, Version 12.2(8r)T2, RELEASE SOFTWARE (fc1)
+TAC Support: http://www.cisco.com/tac
+Copyright (c) 2002 by cisco Systems, Inc.
+
+System Bootstrap, Version 12.3(10r) [dchih 10r], RELEASE SOFTWARE (fc1)
+Copyright (c) 2004 by cisco Systems, Inc.
+c3725 processor with 131072 Kbytes of main memory
+Main memory is configured to 64 bit mode with parity disabled
+
+
+Upgrade ROMMON initialized
+program load complete, entry point: 0x80008000, size: 0xcd20
+program load complete, entry point: 0x80008000, size: 0xcd20
+
+program load complete, entry point: 0x80008000, size: 0x236cff0
+Self decompressing the image : ######################################################################################################################################################################################################## [OK]
+
+Smart Init is enabled
+smart init is sizing iomem
+  ID            MEMORY_REQ                 TYPE
+000259          0X005F3C00 C3725 2NM Mainboard
+00039B          0X00149733 8 Port Analog Voice NM
+                0X003AA110 public buffer pools
+                0X00211000 public particle pools
+TOTAL:          0X00CF8443
+
+If any of the above Memory Requirements are
+"UNKNOWN", you may be using an unsupported
+configuration or there is a software problem and
+system operation may be compromised.
+Rounded IOMEM up to: 13Mb.
+Using 10 percent iomem. [13Mb/128Mb]
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(25b), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-09 14:10 by prod_rel_team
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 117760K/13312K bytes of memory.
+Processor board ID JHY0730K0H1
+R7000 CPU at 240MHz, Implementation 39, Rev 3.3, 256KB L2 Cache
+2 FastEthernet interfaces
+2 Serial interfaces
+6 Voice FXS interfaces
+DRAM configuration is 64 bits wide with parity disabled.
+55K bytes of NVRAM.
+62720K bytes of ATA System CompactFlash (Read/Write)
+2048256K bytes of ATA Slot0 CompactFlash (Read/Write)
+
+
+         --- System Configuration Dialog ---
+
+Would you like to enter the initial configuration dialog? [yes/no]: no
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:09.379: SERVICE_MODULE(Serial0/0): self test finished: Passed
+*Mar  1 00:00:11.931: SERVICE_MODULE(Serial0/1): self test finished: Passedsslinit fn
+
+*Mar  1 00:00:23.607: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Mar  1 00:00:23.607: %LINK-3-UPDOWN: Interface Serial0/0, changed state to down
+*Mar  1 00:00:23.607: %LINK-3-UPDOWN: Interface Serial0/1, changed state to down
+*Mar  1 00:00:23.607: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Mar  1 00:00:24.607: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to down
+*Mar  1 00:00:24.607: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to down
+*Mar  1 00:00:25.071: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Mar  1 00:00:25.107: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Mar  1 00:45:58.423: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(25b), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-09 14:10 by prod_rel_team
+*Mar  1 00:45:58.431: %SNMP-5-COLDSTART: SNMP agent on host Router is undergoing a cold start
+*Mar  1 00:45:59.911: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Mar  1 00:45:59.911: %LINK-5-CHANGED: Interface Serial0/0, changed state to administratively down
+*Mar  1 00:45:59.915: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Mar  1 00:45:59.915: %LINK-5-CHANGED: Interface Serial0/1, changed state to administratively down
+*Mar  1 00:46:01.251: %DSPRM-5-UPDOWN: DSP 1 in slot 2, changed state to up
+*Mar  1 00:46:01.891: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/0/3, changed state to up
+*Mar  1 00:46:01.979: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/0/2, changed state to up
+*Mar  1 00:46:01.979: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/0/1, changed state to up
+*Mar  1 00:46:01.979: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/0/0, changed state to up
+*Mar  1 00:46:01.979: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/1/0, changed state to up
+*Mar  1 00:46:01.979: %LINK-3-UPDOWN: Interface Foreign Exchange Station 2/1/1, changed state to up
+Router>en
+Router#!
+Router#voice port 1/0
+             ^
+% Invalid input detected at '^' marker.
+
+Router#voice-port 1/0
+            ^
+% Invalid input detected at '^' marker.
+
+Router#show version
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(25b), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-09 14:10 by prod_rel_team
+
+ROM: System Bootstrap, Version 12.3(10r) [dchih 10r], RELEASE SOFTWARE (fc1)
+
+Router uptime is 4 minutes
+System returned to ROM by power-on
+System image file is "flash:c3725-advipservicesk9-mz.124-25b.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 117760K/13312K bytes of memory.
+
+Router#[5~
+% Unknown command or computer name, or unable to find computer address
+Router#
+Router#show dial-peer voice summary
+dial-peer hunt 0
+             AD                                    PRE PASS                OUT
+TAG    TYPE  MIN  OPER PREFIX    DEST-PATTERN      FER THRU SESS-TARGET    STAT PORT
+Router#
+Router#
+Router#show voice port summary
+                                           IN       OUT
+PORT            CH   SIG-TYPE   ADMIN OPER STATUS   STATUS   EC
+=============== == ============ ===== ==== ======== ======== ==
+2/0/0           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/1           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/2           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/3           --  fxs-ls      up    dorm on-hook  idle     y
+2/1/0           --  fxs-ls      up    dorm on-hook  idle     y
+2/1/1           --  fxs-ls      up    dorm on-hook  idle     y
+
+PWR FAILOVER PORT        PSTN FAILOVER PORT
+=================        ==================
+
+Router#test voice port 2/0/0
+% Incomplete command.
+
+Router#test voice port 2/0/0 tone dial
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 tone dial
+Router#test voice port 2/0/0 ring
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#show diag
+3725 Backplane EEPROM:
+        PCB Serial Number        : JAE07270NP0
+        Processor type           : 61
+        Top Assy. Part Number    : 800-16147-02
+        Board Revision           : C0
+        Fab Part Number          : 28-4226-06
+        Deviation Number         : 65535-65535
+        Manufacturing Test Data  : FF FF FF FF FF FF FF FF
+        RMA Number               : 255-255-255-255
+        RMA Test History         : FF
+        RMA History              : FF
+        Chassis Serial Number    : JHY0730K0H1
+        Chassis MAC Address      : 0007.b358.c7b0
+        MAC Address block size   : 48
+        Field Diagnostics Data   : FF FF FF FF FF FF FF FF
+        Hardware Revision        : 0.1
+        Number of Slots          : 2
+        EEPROM format version 4
+        EEPROM contents (hex):
+          0x00: 04 FF C1 8B 4A 41 45 30 37 32 37 30 4E 50 30 09
+          0x10: 61 40 02 59 C0 46 03 20 00 3F 13 02 42 43 30 85
+          0x20: 1C 10 82 06 80 FF FF FF FF C4 08 FF FF FF FF FF
+          0x30: FF FF FF 81 FF FF FF FF 03 FF 04 FF C2 8B 4A 48
+          0x40: 59 30 37 33 30 4B 30 48 31 C3 06 00 07 B3 58 C7
+          0x50: B0 43 00 30 C5 08 FF FF FF FF FF FF FF FF 41 00
+          0x60: 01 01 02 FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+Slot 0:
+        C3725 Mother board 2FE(TX)-3W Port adapter, 5 ports
+        Port adapter is analyzed
+        Port adapter insertion time 00:08:06 ago
+        EEPROM contents at hardware discovery:
+        PCB Serial Number        : JAE07270NP0
+        Processor type           : 61
+        Top Assy. Part Number    : 800-16147-02
+        Board Revision           : C0
+        Fab Part Number          : 28-4226-06
+        Deviation Number         : 65535-65535
+        Manufacturing Test Data  : FF FF FF FF FF FF FF FF
+        RMA Number               : 255-255-255-255
+        RMA Test History         : FF
+        RMA History              : FF
+        Chassis Serial Number    : JHY0730K0H1
+        Chassis MAC Address      : 0007.b358.c7b0
+        MAC Address block size   : 48
+        Field Diagnostics Data   : FF FF FF FF FF FF FF FF
+        Hardware Revision        : 0.1
+        Number of Slots          : 2
+        Product (FRU) Number     : C3725-2FE
+        EEPROM format version 4
+        EEPROM contents (hex):
+          0x00: 04 FF C1 8B 4A 41 45 30 37 32 37 30 4E 50 30 09
+          0x10: 61 40 02 59 C0 46 03 20 00 3F 13 02 42 43 30 85
+          0x20: 1C 10 82 06 80 FF FF FF FF C4 08 FF FF FF FF FF
+          0x30: FF FF FF 81 FF FF FF FF 03 FF 04 FF C2 8B 4A 48
+          0x40: 59 30 37 33 30 4B 30 48 31 C3 06 00 07 B3 58 C7
+          0x50: B0 43 00 30 C5 08 FF FF FF FF FF FF FF FF 41 00
+          0x60: 01 01 02 FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+
+        WIC Slot 0:
+        FT1 BT8360
+        Hardware revision 1.5           Board revision G0
+        Serial number     30670550      Part number    800-03279-04
+        FRU Part Number     WIC-1DSU-T1=
+        Test history      0x0           RMA number     00-00-00
+        Connector type    Wan Module
+        EEPROM format version 2
+        EEPROM contents (hex):
+          0x20: 02 11 01 05 01 D3 FE D6 50 0C CF 04 00 00 00 00
+          0x30: 80 00 00 00 03 05 19 01 FF FF FF FF FF FF FF FF
+
+        WIC Slot 1:
+        FT1 BT8360
+        Hardware revision 1.5           Board revision G0
+        Serial number     30670542      Part number    800-03279-04
+        FRU Part Number     WIC-1DSU-T1=
+        Test history      0x0           RMA number     00-00-00
+        Connector type    Wan Module
+        EEPROM format version 2
+        EEPROM contents (hex):
+          0x20: 02 11 01 05 01 D3 FE CE 50 0C CF 04 00 00 00 00
+          0x30: 80 00 00 00 03 05 19 01 FF FF FF FF FF FF FF FF
+
+Slot 2:
+        Voice NM-HD-2V (1 on-board DSP) Port adapter
+        Port adapter is analyzed
+        Port adapter insertion time 00:08:15 ago
+        EEPROM contents at hardware discovery:
+        Hardware Revision        : 5.3
+        Top Assy. Part Number    : 800-21591-02
+        Board Revision           : A0
+        Deviation Number         : 0-0
+        Fab Version              : 03
+        PCB Serial Number        : FOC10413SEP
+        RMA Test History         : 00
+        RMA Number               : 0-0-0-0
+        RMA History              : 00
+        Product (FRU) Number     : NM-HD-2V
+        Version Identifier       : V01
+        EEPROM format version 4
+        EEPROM contents (hex):
+          0x00: 04 FF 40 03 9B 41 05 03 C0 46 03 20 00 54 57 02
+          0x10: 42 41 30 80 00 00 00 00 02 03 C1 8B 46 4F 43 31
+          0x20: 30 34 31 33 53 45 50 03 00 81 00 00 00 00 04 00
+          0x30: CB 88 4E 4D 2D 48 44 2D 32 56 89 56 30 31 20 FF
+          0x40: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+
+        WIC Slot 0:
+        FXS Voice daughter card (4 port)
+        Hardware Revision        : 3.1
+        Part Number              : 73-6918-02
+        Board Revision           : F0
+        Deviation Number         : 0
+        Fab Version              : 02
+        PCB Serial Number        : FOC123137VR
+        RMA Test History         : 00
+        RMA Number               : 0-0-0-0
+        RMA History              : 00
+        Top Assy. Part Number    : 800-17016-02
+        Connector Type           : 01
+        CLEI Code                : IP9IABYCAA
+        Product (FRU) Number     : VIC-4FXS/DID=
+        EEPROM format version 4
+        EEPROM contents (hex):
+          0x00: 04 FF 40 00 3A 41 03 01 82 49 1B 06 02 42 46 30
+          0x10: 88 00 00 00 00 02 02 C1 8B 46 4F 43 31 32 33 31
+          0x20: 33 37 56 52 03 00 81 00 00 00 00 04 00 C0 46 03
+          0x30: 20 00 42 78 02 05 01 C6 8A 49 50 39 49 41 42 59
+          0x40: 43 41 41 FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+
+        WIC Slot 1:
+        VG - FXS Voice daughter card (2 port)
+        Hardware Revision        : 3.1
+        Top Assy. Part Number    : 800-21341-02
+        Board Revision           : B0
+        Deviation Number         : 0-0
+        Fab Version              : 01
+        PCB Serial Number        : FOC12430L44
+        RMA Test History         : 00
+        RMA Number               : 0-0-0-0
+        RMA History              : 00
+        Product (FRU) Number     : VIC2-2FXS
+        Version Identifier       : V01
+        CLEI Code                : CNUIAPPAAA
+        EEPROM format version 4
+        EEPROM contents (hex):
+          0x00: 04 FF 40 00 47 41 03 01 C0 46 03 20 00 53 5D 02
+          0x10: 42 42 30 80 00 00 00 00 02 01 C1 8B 46 4F 43 31
+          0x20: 32 34 33 30 4C 34 34 03 00 81 00 00 00 00 04 00
+          0x30: CB 89 56 49 43 32 2D 32 46 58 53 89 56 30 31 20
+          0x40: C6 8A 43 4E 55 49 41 50 50 41 41 41 FF FF FF FF
+          0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+          0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+
+
+
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#
+Router#test voice port 1/0/0 ring
+                       ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 ring
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 tone dial
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 ring
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 ring-trip
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#test voice port 2/0/0 ring
+                              ^
+% Invalid input detected at '^' marker.
+
+Router#dial peer voice 201 pots
+         ^
+% Invalid input detected at '^' marker.
+
+Router#dial-peer voice 201 pots
+         ^
+% Invalid input detected at '^' marker.
+
+Router#dial-peer
+Translating "dial-peer"...domain server (255.255.255.255)
+
+Translating "dial-peer"...domain server (255.255.255.255)
+ (255.255.255.255)% Unknown command or computer name, or unable to find computer address
+Router#
+Router#show version
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(25b), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-09 14:10 by prod_rel_team
+
+ROM: System Bootstrap, Version 12.3(10r) [dchih 10r], RELEASE SOFTWARE (fc1)
+
+Router uptime is 14 minutes
+System returned to ROM by power-on
+System image file is "flash:c3725-advipservicesk9-mz.124-25b.bin"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#voice service pots
+Router(conf-voi-serv)#voice service voip
+Router(conf-voi-serv)#exit
+Router(config)#test voice port 2/0/0 ring
+                 ^
+% Invalid input detected at '^' marker.
+
+Router(config)#dial-peer voice 101 pots
+Router(config-dial-peer)#description Assign number 8885552222 to port 2/0/0
+Router(config-dial-peer)#destination-pattern 8885552222
+Router(config-dial-peer)#port 2/0/0
+Router(config-dial-peer)#voice-port 2/0/0
+Router(config-voiceport)#station-id number 8885552222
+Router(config-voiceport)#caller-id enable
+Router(config-voiceport)#timeouts interdigit 5
+Router(config-voiceport)#
+Router#
+*Mar  1 01:04:06.027: %SYS-5-CONFIG_I: Configured from console by console
+Router#show voice port summary
+                                           IN       OUT
+PORT            CH   SIG-TYPE   ADMIN OPER STATUS   STATUS   EC
+=============== == ============ ===== ==== ======== ======== ==
+2/0/0           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/1           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/2           --  fxs-ls      up    dorm on-hook  idle     y
+2/0/3           --  fxs-ls      up    dorm on-hook  idle     y
+2/1/0           --  fxs-ls      up    dorm on-hook  idle     y
+2/1/1           --  fxs-ls      up    dorm on-hook  idle     y
+
+PWR FAILOVER PORT        PSTN FAILOVER PORT
+=================        ==================
+
+Router#dial-peer
+Translating "dial-peer"...domain server (255.255.255.255)
+
+Translating "dial-peer"...domain server (255.255.255.255)
+ (255.255.255.255)% Unknown command or computer name, or unable to find computer address
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#dial-peer voice 202 pots
+Router(config-dial-peer)#description Assign number 8885553333 to port 2/1/0
+Router(config-dial-peer)#port 2/1/0
+Router(config-dial-peer)#voice-port 2/1/0
+Router(config-voiceport)#station-id number 8885553333
+Router(config-voiceport)#caller-id enable
+Router(config-voiceport)#timouts interdigit 5
+                            ^
+% Invalid input detected at '^' marker.
+
+Router(config-voiceport)#
+Router(config-voiceport)#exit
+Router(config)#write memory
+                 ^
+% Invalid input detected at '^' marker.
+
+Router(config)#configure terminal
+                       ^
+% Invalid input detected at '^' marker.
+
+Router(config)#
+Router#
+*Mar  1 01:09:28.903: %SYS-5-CONFIG_I: Configured from console by console
+Router#dial-peer voice 202 pots
+         ^
+% Invalid input detected at '^' marker.
+
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#dial-peer voice 202 pots
+Router(config-dial-peer)#desciption Assign number 8885553333 to port 2/1/0
+                             ^
+% Invalid input detected at '^' marker.
+
+Router(config-dial-peer)#
+Router(config-dial-peer)#desciption Assign number 8885553333 to port 2/1/0
+                             ^
+% Invalid input detected at '^' marker.
+
+Router(config-dial-peer)#description Assign number 8885553333 to port 2/1/0
+Router(config-dial-peer)#destination-pattern 8885553333
+Router(config-dial-peer)#port 2/1/0
+Router(config-dial-peer)#voice-port 2/1/0
+Router(config-voiceport)#station-id number 8885553333
+Router(config-voiceport)#caller-id enable
+Router(config-voiceport)#timeouts interdigit 60
+Router(config-voiceport)#voice service pots
+Router(conf-voi-serv)#interdigit timeout 60
+                      ^
+% Invalid input detected at '^' marker.
+
+Router(conf-voi-serv)#write memory
+                      ^
+% Invalid input detected at '^' marker.
+
+Router(conf-voi-serv)#exit
+Router(config)#write memory
+                 ^
+% Invalid input detected at '^' marker.
+
+Router(config)#exit
+Router#writ
+*Mar  1 01:14:12.819: %SYS-5-CONFIG_I: Configured from console by console
+Building configuration...
+[OK]
+Router#
