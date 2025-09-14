@@ -39,4 +39,7 @@ Under the hood, Note the space on the top left for a redundant power supply, the
 ![IMG_2152](https://github.com/user-attachments/assets/a14d87af-b40e-4862-9d0a-affe27407741)
 Detail showing the two FXS cards (same footprint but electrically incompatible with WIC slots/ports) in the NM-HD-2V slots
 
+![DSCF5455](https://github.com/user-attachments/assets/f87e068e-f573-46b3-b757-574ccfe3ef92)
+Setup at my desk with the Latitude acting as client and Macbook Pro for console + logging (this photo was an excuse to use the XT1)
+
 
