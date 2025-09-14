@@ -1,1 +1,4 @@
-Retro ISP with a Cisco 3725 to deploy a dialup router which will share modern-day internet over a T1 trunk line to dialup clients
+# Retro ISP Project
+
+### Building on the retro dial up setup for my classic computers, I've now embarked on a mission to employ mid-90's ISP grade equipment for enterprise level POTS, PPP and Dial-Up to the modern internet. Will we be able tog et on the internet? Probably. Will it be usable? Who knows?
+
