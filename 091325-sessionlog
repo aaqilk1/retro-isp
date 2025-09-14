@@ -334,7 +334,7 @@ NVI0                       unassigned      NO  unset  up                    up
 Router#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 Router(config)#ip local pool DIALPOOL 192.168.1.100 192.168.1.150
-Router(config)#username aaqil password 0 pepper
+Router(config)#username aaqil password 0 ******
 Router(config)#interface Async3
 Router(config-if)#ip unnumbered FastEthernet0/1
 Router(config-if)#encapsulation ppp
@@ -4204,7 +4204,7 @@ ip admission max-nodata-conns 3
  —More—         !
  —More—         !
  —More—         !
- —More—         username aaqil password 0 pepper
+ —More—         username aaqil password 0 ******
  —More—         !
  —More—         !
  —More—         ! 
