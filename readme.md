@@ -31,7 +31,7 @@ Cisco 3725 (purchased off eBay). This is the brains of the entire operation – 
 The front panel is probably my favorite front panel next to the 486dx2 minitower front panel.
 
 ![IMG_2148](https://github.com/user-attachments/assets/08e56032-d946-453b-85d4-1121e2713bc3)
-Rear of the device with the expansion ports, console cable and NM visible. The NM-HDV is atop the router and I've got the NM-HD-2V on the top left (slot 2) port with a VIC-4FXS and VIC-2FXS for through-dial testing. The black cable wsa hooked up to a USB modem and the white to a telephone. 
+Rear of the device with the expansion ports, console cable and NM visible. The NM-HDV is atop the router and I've got the NM-HD-2V on the top left (slot 2) port with a VIC-4FXS and VIC-2FXS for through-dial testing. The black cable was hooked up to a USB modem and the white to a telephone. 
 
 ![IMG_2150](https://github.com/user-attachments/assets/e132de8b-9b08-415c-baad-84d12ead1c12)
 Under the hood, Note the space on the top left for a redundant power supply, the RAM slots, the Cisco internal CF card and expansion headers on the motherboard. This one has 2 NM slots with the top one accomodating a double-wide card and the bottom one accomodating a regular card. 
