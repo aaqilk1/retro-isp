@@ -1,0 +1,504 @@
+Router>en
+Router#show diag
+3725 Backplane EEPROM:
+	PCB Serial Number        : JAE07270NP0
+	Processor type           : 61 
+	Top Assy. Part Number    : 800-16147-02
+	Board Revision           : C0
+	Fab Part Number          : 28-4226-06
+	Deviation Number         : 65535-65535
+	Manufacturing Test Data  : FF FF FF FF FF FF FF FF 
+	RMA Number               : 255-255-255-255
+	RMA Test History         : FF
+	RMA History              : FF
+	Chassis Serial Number    : JHY0730K0H1
+	Chassis MAC Address      : 0007.b358.c7b0
+	MAC Address block size   : 48
+	Field Diagnostics Data   : FF FF FF FF FF FF FF FF 
+	Hardware Revision        : 0.1
+	Number of Slots          : 2
+	EEPROM format version 4
+	EEPROM contents (hex):
+	  0x00: 04 FF C1 8B 4A 41 45 30 37 32 37 30 4E 50 30 09
+	  0x10: 61 40 02 59 C0 46 03 20 00 3F 13 02 42 43 30 85
+	  0x20: 1C 10 82 06 80 FF FF FF FF C4 08 FF FF FF FF FF
+	  0x30: FF FF FF 81 FF FF FF FF 03 FF 04 FF C2 8B 4A 48
+ —More—         	  0x40: 59 30 37 33 30 4B 30 48 31 C3 06 00 07 B3 58 C7
+ —More—         	  0x50: B0 43 00 30 C5 08 FF FF FF FF FF FF FF FF 41 00
+ —More—         	  0x60: 01 01 02 FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         Slot 0:
+ —More—         	C3725 Mother board 2FE(TX)-3W Port adapter, 6 ports
+ —More—         	Port adapter is analyzed 
+ —More—         	Port adapter insertion time 00:01:19 ago
+ —More—         	EEPROM contents at hardware discovery:
+ —More—         	PCB Serial Number        : JAE07270NP0
+ —More—         	Processor type           : 61 
+ —More—         	Top Assy. Part Number    : 800-16147-02
+ —More—         	Board Revision           : C0
+ —More—         	Fab Part Number          : 28-4226-06
+ —More—         	Deviation Number         : 65535-65535
+ —More—         	Manufacturing Test Data  : FF FF FF FF FF FF FF FF 
+ —More—         	RMA Number               : 255-255-255-255
+ —More—         	RMA Test History         : FF
+ —More—         	RMA History              : FF
+ —More—         	Chassis Serial Number    : JHY0730K0H1
+ —More—         	Chassis MAC Address      : 0007.b358.c7b0
+ —More—         	MAC Address block size   : 48
+ —More—         	Field Diagnostics Data   : FF FF FF FF FF FF FF FF 
+ —More—         	Hardware Revision        : 0.1
+ —More—         	Number of Slots          : 2
+ —More—         	Product (FRU) Number     : C3725-2FE
+ —More—         	EEPROM format version 4
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 04 FF C1 8B 4A 41 45 30 37 32 37 30 4E 50 30 09
+ —More—         	  0x10: 61 40 02 59 C0 46 03 20 00 3F 13 02 42 43 30 85
+ —More—         	  0x20: 1C 10 82 06 80 FF FF FF FF C4 08 FF FF FF FF FF
+ —More—         	  0x30: FF FF FF 81 FF FF FF FF 03 FF 04 FF C2 8B 4A 48
+ —More—         	  0x40: 59 30 37 33 30 4B 30 48 31 C3 06 00 07 B3 58 C7
+ —More—         	  0x50: B0 43 00 30 C5 08 FF FF FF FF FF FF FF FF 41 00
+ —More—         	  0x60: 01 01 02 FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 0:
+ —More—         	FT1 BT8360
+ —More—         	Hardware revision 1.5         	Board revision G0
+ —More—         	Serial number     30670550  	Part number    800-03279-04
+ —More—         	FRU Part Number     WIC-1DSU-T1=      
+ —More—         	Test history      0x0         	RMA number     00-00-00
+ —More—         	Connector type    Wan Module
+ —More—         	EEPROM format version 2
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x20: 02 11 01 05 01 D3 FE D6 50 0C CF 04 00 00 00 00
+ —More—         	  0x30: 80 00 00 00 03 05 19 01 FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 1:
+ —More—         	FT1 BT8360
+ —More—         	Hardware revision 1.5         	Board revision G0
+ —More—         	Serial number     30670542  	Part number    800-03279-04
+ —More—         	FRU Part Number     WIC-1DSU-T1=      
+ —More—         	Test history      0x0         	RMA number     00-00-00
+ —More—         	Connector type    Wan Module
+ —More—         	EEPROM format version 2
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x20: 02 11 01 05 01 D3 FE CE 50 0C CF 04 00 00 00 00
+ —More—         	  0x30: 80 00 00 00 03 05 19 01 FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 2:
+ —More—         	Single Port Modem WIC(Version 2)
+ —More—         	Hardware Revision        : 1.0
+ —More—         	Top Assy. Part Number    : 800-34448-01
+ —More—         	Board Revision           : B0
+ —More—         	Deviation Number         : 0
+ —More—         	Fab Version              : 08
+ —More—         	PCB Serial Number        : FOC17042GHX
+ —More—         	RMA Test History         : 00
+ —More—         	RMA Number               : 0-0-0-0
+ —More—         	RMA History              : 00
+ —More—         	Product (FRU) Number     : WIC-1AM-V2
+ —More—         	Version Identifier       : V03 
+ —More—         	CLEI Code                : CNUIAHEAAC
+ —More—         	EEPROM format version 4
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 04 FF 40 04 8A 41 01 00 C0 46 03 20 00 86 90 01
+ —More—         	  0x10: 42 42 30 88 00 00 00 00 02 08 C1 8B 46 4F 43 31
+ —More—         	  0x20: 37 30 34 32 47 48 58 03 00 81 00 00 00 00 04 00
+ —More—         	  0x30: CB 8A 57 49 43 2D 31 41 4D 2D 56 32 89 56 30 33
+ —More—         	  0x40: 20 D9 02 40 C1 C6 8A 43 4E 55 49 41 48 45 41 41
+ —More—         	  0x50: 43 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         Slot 1:
+ —More—         	4 PORT Voice PM for MARs Port adapter
+ —More—         	Port adapter is analyzed 
+ —More—         	Port adapter insertion time 00:01:28 ago
+ —More—         	EEPROM contents at hardware discovery:
+ —More—         	Hardware revision 1.1         	Board revision C0
+ —More—         	Serial number     10560949  	Part number    800-02491-02
+ —More—         	FRU Part Number     NM-2V=            
+ —More—         	Test history      0x0         	RMA number     00-00-00
+ —More—         	EEPROM format version 1
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 01 65 01 01 00 A1 25 B5 50 09 BB 02 00 00 00 00
+ —More—         	  0x10: 60 00 00 00 98 11 03 17 FF FF FF FF FF FF FF FF
+ —More—         	  0x20: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x30: FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         Slot 2:
+ —More—         	Voice NM-HD-2V (1 on-board DSP) Port adapter
+ —More—         	Port adapter is analyzed 
+ —More—         	Port adapter insertion time 00:01:22 ago
+ —More—         	EEPROM contents at hardware discovery:
+ —More—         	Hardware Revision        : 5.3
+ —More—         	Top Assy. Part Number    : 800-21591-02
+ —More—         	Board Revision           : A0
+ —More—         	Deviation Number         : 0-0
+ —More—         	Fab Version              : 03
+ —More—         	PCB Serial Number        : FOC10413SEP
+ —More—         	RMA Test History         : 00
+ —More—         	RMA Number               : 0-0-0-0
+ —More—         	RMA History              : 00
+ —More—         	Product (FRU) Number     : NM-HD-2V
+ —More—         	Version Identifier       : V01 
+ —More—         	EEPROM format version 4
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 04 FF 40 03 9B 41 05 03 C0 46 03 20 00 54 57 02
+ —More—         	  0x10: 42 41 30 80 00 00 00 00 02 03 C1 8B 46 4F 43 31
+ —More—         	  0x20: 30 34 31 33 53 45 50 03 00 81 00 00 00 00 04 00
+ —More—         	  0x30: CB 88 4E 4D 2D 48 44 2D 32 56 89 56 30 31 20 FF
+ —More—         	  0x40: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 0:
+ —More—         	FXS Voice daughter card (4 port)
+ —More—         	Hardware Revision        : 3.1
+ —More—         	Part Number              : 73-6918-02
+ —More—         	Board Revision           : F0
+ —More—         	Deviation Number         : 0
+ —More—         	Fab Version              : 02
+ —More—         	PCB Serial Number        : FOC123137VR
+ —More—         	RMA Test History         : 00
+ —More—         	RMA Number               : 0-0-0-0
+ —More—         	RMA History              : 00
+ —More—         	Top Assy. Part Number    : 800-17016-02
+ —More—         	Connector Type           : 01
+ —More—         	CLEI Code                : IP9IABYCAA
+ —More—         	Product (FRU) Number     : VIC-4FXS/DID=
+ —More—         	EEPROM format version 4
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 04 FF 40 00 3A 41 03 01 82 49 1B 06 02 42 46 30
+ —More—         	  0x10: 88 00 00 00 00 02 02 C1 8B 46 4F 43 31 32 33 31
+ —More—         	  0x20: 33 37 56 52 03 00 81 00 00 00 00 04 00 C0 46 03
+ —More—         	  0x30: 20 00 42 78 02 05 01 C6 8A 49 50 39 49 41 42 59
+ —More—         	  0x40: 43 41 41 FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 1:
+ —More—         	FXS Voice daughter card (4 port)
+ —More—         	Hardware Revision        : 3.1
+ —More—         	Part Number              : 73-6918-02
+ —More—         	Board Revision           : E0
+ —More—         	Deviation Number         : 0
+ —More—         	Fab Version              : 02
+ —More—         	PCB Serial Number        : FOC11181Q4M
+ —More—         	RMA Test History         : 00
+ —More—         	RMA Number               : 0-0-0-0
+ —More—         	RMA History              : 00
+ —More—         	Top Assy. Part Number    : 800-17016-02
+ —More—         	Connector Type           : 01
+ —More—         	Product (FRU) Number     : VIC-4FXS/DID=
+ —More—         	EEPROM format version 4
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x00: 04 FF 40 00 3A 41 03 01 82 49 1B 06 02 42 45 30
+ —More—         	  0x10: 88 00 00 00 00 02 02 C1 8B 46 4F 43 31 31 31 38
+ —More—         	  0x20: 31 51 34 4D 03 00 81 00 00 00 00 04 00 C0 46 03
+ —More—         	  0x30: 20 00 42 78 02 05 01 FF FF FF FF FF FF FF FF FF
+ —More—         	  0x40: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         
+ —More—         
+Router#
+Router#
+Router#
+Router#
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#controller T1 0/0
+                      ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config)#enable
+% Incomplete command.
+
+Router(config)#conf t
+                    ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config)#t interface Serial10/0
+                                ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config)#interface Serial10/0
+                                ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config)#end
+Router#
+*Mar  1 03:02:42.295: %SYS-5-CONFIG_I: Configured from console by consolee
+% Ambiguous command:  “e”
+Router#enable
+Router#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#show ip interface brief | include Serial
+                 ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config)#do show con   ip interface brief | include Serial
+Serial0/0                  unassigned      YES NVRAM  administratively down down    
+Serial0/1                  unassigned      YES NVRAM  administratively down down    
+Router(config)#interface Serial0/0
+Router(config-if)#description T1 back-to-back (master)
+Router(config-if)#encapsulation PPP
+Router(config-if)#ip address 10.0.0.1 255.255.255.252
+IP address conflicts with gateway ip address in static routing table
+Router(config-if)#ip address 172.16.255.1 255.255.255.252
+Router(config-if)#no shutdown
+Router(config-if)#interface Seri
+*Mar  1 03:05:46.939: %LINK-3-UPDOWN: Interface Serial0/0, changed state to downal0/1
+Router(config-if)#ip address 172.16.255.2 255.255.255.252
+Router(config-if)#no shutdown
+Router(config-if)#
+*Mar  1 03:06:19.531: %LINK-3-UPDOWN: Interface Serial0/1, changed state to down
+Router(config-if)#do show run | include ^
+*Mar  1 03:06:29.819: %LINK-3-UPDOWN: Interface Serial0/0, changed state to upip
+*Mar  1 03:06:31.643: %LINK-3-UPDOWN: Interface Serial0/1, changed state to up
+*Mar  1 03:06:32.643: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to up                         
+Router(config-if)#do show ip interface brief | 
+*Mar  1 03:06:59.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to downinclude Serial
+Serial0/0                  172.16.255.1    YES manual up                    down    
+Serial0/1                  172.16.255.2    YES manual up                    down    
+Router(config-if)#do show serivce               do show service-module serial0/0
+Interface Serial0/0
+Module type is T1/fractional
+    Hardware revision is 1.5, Software revision is 20081006-0.3,
+    Image checksum is 0x82ACD4B3, Protocol revision is 0.1 
+Receiver has no alarms.
+Framing is ESF, Line Code is B8ZS, Current clock source is line, 
+Fraction has 24 timeslots (64 Kbits/sec each), Net bandwidth is 1536 Kbits/sec.
+Last module self-test (done at startup): Passed
+Last clearing of alarm counters 00:09:33
+    loss of signal        :    0, 
+    loss of frame         :    1, last occurred 00:09:17
+    AIS alarm             :    1, last occurred 00:09:17
+    Remote alarm          :    1, last occurred 00:09:20
+    Module access errors  :    0, 
+Total Data (last 0 15 minute intervals):
+    0 Line Code Violations, 0 Path Code Violations
+    0 Slip Secs, 0 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 0 Unavail Secs
+Data in current interval (593 seconds elapsed):
+    4 Line Code Violations, 584 Path Code Violations
+    0 Slip Secs, 496 Fr Loss Secs, 3 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 1 Severely Err Secs, 495 Unavail Secs
+Router(config-if)#s do show service-module serial0/1
+Interface Serial0/1
+Module type is T1/fractional
+    Hardware revision is 1.5, Software revision is 20081006-0.3,
+    Image checksum is 0x82ACD4B3, Protocol revision is 0.1 
+Receiver has no alarms.
+Framing is ESF, Line Code is B8ZS, Current clock source is line, 
+Fraction has 24 timeslots (64 Kbits/sec each), Net bandwidth is 1536 Kbits/sec.
+Last module self-test (done at startup): Passed
+Last clearing of alarm counters 00:09:44
+    loss of signal        :    0, 
+    loss of frame         :    1, last occurred 00:09:31
+    AIS alarm             :    1, last occurred 00:09:31
+    Remote alarm          :    1, last occurred 00:09:34
+    Module access errors  :    0, 
+Total Data (last 0 15 minute intervals):
+    0 Line Code Violations, 0 Path Code Violations
+    0 Slip Secs, 0 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 0 Unavail Secs
+Data in current interval (605 seconds elapsed):
+    0 Line Code Violations, 476 Path Code Violations
+    0 Slip Secs, 462 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 462 Unavail Secs
+Router(config-if)#do show interfacwe  e serial0/0
+Serial0/0 is up, line protocol is down 
+  Hardware is GT96K with integrated T1 CSU/DSU
+  Description: T1 back-to-back (master)
+  Internet address is 172.16.255.1/30
+  MTU 1500 bytes, BW 1536 Kbit/sec, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation PPP, LCP Listen, loopback not set
+  Keepalive set (10 sec)
+  Last input 00:00:08, output 00:00:29, output hang never
+  Last clearing of “show interface” counters 00:03:28
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1152 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     10 packets input, 234 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     20 packets output, 280 bytes, 0 underruns
+     0 output errors, 0 collisions, 7 interface resets
+ —More—              10 unknown protocol drops
+ —More—              0 output buffer failures, 0 output buffers swapped out
+ —More—              1 carrier transitions
+ —More—              DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+ —More—         
+Router(config-if)#do show interface serial0/1
+Serial0/1 is up, line protocol is down 
+  Hardware is GT96K with integrated T1 CSU/DSU
+  Internet address is 172.16.255.2/30
+  MTU 1500 bytes, BW 1536 Kbit/sec, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input 00:00:00, output 00:00:01, output hang never
+  Last clearing of “show interface” counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1152 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     26 packets input, 364 bytes, 0 no buffer
+     Received 26 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     13 packets output, 306 bytes, 0 underruns
+     0 output errors, 0 collisions, 7 interface resets
+     26 unknown protocol drops
+ —More—              0 output buffer failures, 0 output buffers swapped out
+ —More—              2 carrier transitions
+ —More—              DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+ —More—         
+Router(config-if)#pint g 172.16.255.2 source 172.16.255.1
+                   ^
+% Invalid input detected at ‘^’ marker.
+
+Router(config-if)#interface Serial0/0
+Router(config-if)#encapsulation hdlc
+Router(config-if)#service-module t1 framing esf
+Router(config-if)#service-module t1 linecode
+*Mar  1 03:09:59.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to up
+*Mar  1 03:09:59.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to up b8zs
+Router(config-if)#service-module t1 clock source internal
+Router(config-if)#service-module t1 timeslots 1-24
+Router(config-if)#no shutdown
+Router(config-if)#interfacve  e Serial0/1
+Router(config-if)#encapsulation hdlc
+Router(config-if)#service-module t1 framing esf
+Router(config-if)#service-module t1 linecode b8zs
+Router(config-if)#service-module t1 clock source line
+Router(config-if)#service-module t1 timeslots 1-24
+Router(config-if)#not  shutdown
+Router(config-if)#end
+Router#show se
+*Mar  1 03:11:40.891: %SYS-5-CONFIG_I: Configured from console by consoleriv          
+Router#show service-module serial0/0
+Interface Serial0/0
+Module type is T1/fractional
+    Hardware revision is 1.5, Software revision is 20081006-0.3,
+    Image checksum is 0x82ACD4B3, Protocol revision is 0.1 
+Receiver has no alarms.
+Framing is ESF, Line Code is B8ZS, Current clock source is internal, 
+Fraction has 24 timeslots (64 Kbits/sec each), Net bandwidth is 1536 Kbits/sec.
+Last module self-test (done at startup): Passed
+Last clearing of alarm counters 00:13:46
+    loss of signal        :    0, 
+    loss of frame         :    1, last occurred 00:13:30
+    AIS alarm             :    1, last occurred 00:13:30
+    Remote alarm          :    1, last occurred 00:13:33
+    Module access errors  :    0, 
+Total Data (last 0 15 minute intervals):
+    0 Line Code Violations, 0 Path Code Violations
+    0 Slip Secs, 0 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 0 Unavail Secs
+Data in current interval (850 seconds elapsed):
+    4 Line Code Violations, 584 Path Code Violations
+    0 Slip Secs, 496 Fr Loss Secs, 3 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 1 Severely Err Secs, 495 Unavail Secs
+Router#
+Router#show service-module serial0/1
+Interface Serial0/1
+Module type is T1/fractional
+    Hardware revision is 1.5, Software revision is 20081006-0.3,
+    Image checksum is 0x82ACD4B3, Protocol revision is 0.1 
+Receiver has no alarms.
+Framing is ESF, Line Code is B8ZS, Current clock source is line, 
+Fraction has 24 timeslots (64 Kbits/sec each), Net bandwidth is 1536 Kbits/sec.
+Last module self-test (done at startup): Passed
+Last clearing of alarm counters 00:13:59
+    loss of signal        :    0, 
+    loss of frame         :    1, last occurred 00:13:45
+    AIS alarm             :    1, last occurred 00:13:45
+    Remote alarm          :    1, last occurred 00:13:48
+    Module access errors  :    0, 
+Total Data (last 0 15 minute intervals):
+    0 Line Code Violations, 0 Path Code Violations
+    0 Slip Secs, 0 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 0 Unavail Secs
+Data in current interval (863 seconds elapsed):
+    0 Line Code Violations, 476 Path Code Violations
+    0 Slip Secs, 462 Fr Loss Secs, 0 Line Err Secs, 0 Degraded Mins
+    0 Errored Secs, 0 Bursty Err Secs, 0 Severely Err Secs, 462 Unavail Secs
+Router#show interface serial0/0
+Serial0/0 is up, line protocol is up 
+  Hardware is GT96K with integrated T1 CSU/DSU
+  Description: T1 back-to-back (master)
+  Internet address is 172.16.255.1/30
+  MTU 1500 bytes, BW 1536 Kbit/sec, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input 00:00:06, output 00:00:06, output hang never
+  Last clearing of “show interface” counters 00:02:33
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1152 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     20 packets input, 2055 bytes, 0 no buffer
+     Received 20 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     17 packets output, 1038 bytes, 0 underruns
+     0 output errors, 0 collisions, 1 interface resets
+ —More—         
+Router#
+Router#show interface serial0/1
+Serial0/1 is up, line protocol is up 
+  Hardware is GT96K with integrated T1 CSU/DSU
+  Internet address is 172.16.255.2/30
+  MTU 1500 bytes, BW 1536 Kbit/sec, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input 00:00:04, output 00:00:04, output hang never
+  Last clearing of “show interface” counters never
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1152 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     58 packets input, 1622 bytes, 0 no buffer
+     Received 58 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     42 packets output, 2577 bytes, 0 underruns
+     0 output errors, 0 collisions, 11 interface resets
+     40 unknown protocol drops
+ —More—              0 output buffer failures, 0 output buffers swapped out
+ —More—              2 carrier transitions
+ —More—              DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+ —More—         
+Router#
+Router#
+Router#ping 172.16.255.2 source 172.16.255.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 172.16.255.2, timeout is 2 seconds:
+Packet sent with a source address of 172.16.255.1 
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+Router#
