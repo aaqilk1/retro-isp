@@ -1,0 +1,291 @@
+System Bootstrap, Version 12.2(10r)1, RELEASE SOFTWARE (fc1)
+TAC Support: http://www.cisco.com/tac
+Copyright (c) 2002 by cisco Systems, Inc.
+C2600 platform with 65536 Kbytes of main memory
+
+
+program load complete, entry point: 0x80008000, size: 0xfeee58
+
+Self decompressing the image : ############################################################################################################################################################################################################################################################ [OK]
+
+
+Smart Init is enabled
+
+smart init is sizing iomem
+
+  ID            MEMORY_REQ                 TYPE
+
+0001C1          0X000B3B80 C2600 Single Fast Ethernet
+
+                0X00098670 public buffer pools
+
+                0X00211000 public particle pools
+
+TOTAL:          0X0035D1F0
+
+
+If any of the above Memory Requirements are 
+
+“UNKNOWN”, you may be using an unsupported
+
+configuration or there is a software problem and
+
+system operation may be compromised.
+
+Rounded IOMEM up to: 4Mb.
+
+Using 6 percent iomem. [4Mb/64Mb]
+
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco Internetwork Operating System Software 
+IOS (tm) C2600 Software (C2600-IPVOICE-M), Version 12.3(15), RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Tue 24-May-05 14:01 by ssearch
+Image text-base: 0x80008098, data-base: 0x8183E8D4
+
+cisco 2650 (MPC860P) processor (revision 0x00) with 61440K/4096K bytes of memory.
+Processor board ID JAD07140PB2 (3771347011)
+M860 processor: part number 5, mask 2
+Bridging software.
+X.25 software, Version 3.0.0.
+1 FastEthernet/IEEE 802.3 interface(s)
+1 Serial network interface(s)
+2 Serial(sync/async) network interface(s)
+32K bytes of non-volatile configuration memory.
+32768K bytes of processor board System flash (Read/Write)
+
+ Slot is empty or does not support clock participate 
+ WIC slot is empty or does not support clock participate 
+SETUP: new interface Serial0/0 placed in “shutdown” state
+SETUP: new interface Serial0/1 placed in “shutdown” state
+SETUP: new interface Serial0/2 placed in “shutdown” state
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:03.786: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Mar  1 00:00:09.138: SERVICE_MODULE(Serial0/0): self test finished: Passed
+*Mar  1 00:00:13.001: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:00:13.005: %LINK-3-UPDOWN: Interface Serial0/0, changed state to down
+*Mar  1 00:00:13.005: %LINK-3-UPDOWN: Interface Serial0/1, changed state to down
+*Mar  1 00:00:13.005: %LINK-3-UPDOWN: Interface Serial0/2, changed state to down
+*Mar  1 00:00:14.046: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+*Mar  1 00:00:14.046: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to down
+*Mar  1 00:00:14.046: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to down
+*Mar  1 00:00:14.046: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/2, changed state to down
+*Mar  1 00:00:15.160: %SYS-5-CONFIG_I: Configured from memory by 
+r2650>
+r2650>console
+*Mar  1 00:00:16.835: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Mar  1 00:00:16.923: %SYS-5-RESTART: System restarted —
+Cisco Internetwork Operating System Software 
+IOS (tm) C2600 Software (C2600-IPVOICE-M), Version 12.3(15), RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Tue 24-May-05 14:01 by ssearch
+*Mar  1 00:00:16.927: %SNMP-5-COLDSTART: SNMP agent on host r2650 is undergoing a cold start
+*Mar  1 00:00:17.159: %LINK-5-CHANGED: Interface Serial0/0, changed state to administratively down
+*Mar  1 00:00:17.248: %LINK-5-CHANGED: Interface Serial0/1, changed state to administratively down
+*Mar  1 00:00:17.320: %LINK-5-CHANGED: Interface Serial0/2, changed state to administratively down
+*Mar  1 00:00:17.837: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+
+r2650>
+r2650>show diag         en
+r2650#show diag
+Slot 0:
+	C2650 1FE Mainboard Port adapter, 4 ports
+	Port adapter is analyzed 
+	Port adapter insertion time unknown
+	EEPROM contents at hardware discovery:
+	Hardware Revision        : 0.0
+	PCB Serial Number        : JAD07140PB2 (3771347011)
+	Part Number              : 73-5024-06
+	RMA History              : 00
+	RMA Number               : 0-0-0-0
+	Board Revision           : A0
+	Deviation Number         : 0-0
+	Product (FRU) Number     : C2600M-1FE
+	EEPROM format version 4
+	EEPROM contents (hex):
+	  0x00: 04 FF 40 01 C1 41 00 00 C1 18 4A 41 44 30 37 31
+	  0x10: 34 30 50 42 32 20 28 33 37 37 31 33 34 37 30 31
+	  0x20: 31 29 82 49 13 A0 06 04 00 81 00 00 00 00 42 41
+	  0x30: 30 80 00 00 00 00 FF FF FF FF FF FF FF FF FF FF
+	  0x40: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+	  0x50: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+	  0x60: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+	  0x70: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 0:
+ —More—         	FT1 BT8360
+ —More—         	Hardware revision 1.5         	Board revision G0
+ —More—         	Serial number     30670542  	Part number    800-03279-04
+ —More—         	FRU Part Number   WIC-1DSU-T1=
+ —More—         
+ —More—         	Test history      0x0         	RMA number     00-00-00
+ —More—         	Connector type    Wan Module
+ —More—         	EEPROM format version 2
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x20: 02 11 01 05 01 D3 FE CE 50 0C CF 04 00 00 00 00
+ —More—         	  0x30: 80 00 00 00 03 05 19 01 FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         	WIC Slot 1:
+ —More—         	Serial 2T (12in1)
+ —More—         	Hardware revision 1.0         	Board revision G0
+ —More—         	Serial number     28077971  	Part number    800-03181-01
+ —More—         	FRU Part Number   WIC-2T=
+ —More—         
+ —More—         	Test history      0x0         	RMA number     00-00-00
+ —More—         	Connector type    PCI
+ —More—         	EEPROM format version 1
+ —More—         	EEPROM contents (hex):
+ —More—         	  0x20: 01 12 01 00 01 AC 6F 93 50 0C 6D 01 00 00 00 00
+ —More—         	  0x30: 80 00 00 00 02 04 04 00 FF FF FF FF FF FF FF FF
+ —More—         
+ —More—         
+r2650#
+r2650#
+r2650#interface FastEthernet0/0
+       ^
+% Invalid input detected at ‘^’ marker.
+
+r2650#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+r2650(config)#f interface FastEthjern                     
+r2650(config)#interface FastEthernet0/0
+r2650(config-if)#ip address dhcp
+r2650(config-if)#ip nat outside
+r2650(config-if)#no shutdown
+r2650(config-if)#interface
+*Mar  1 00:02:04.768: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:02:06.643: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up   
+% Incomplete command.
+
+r2650(config)#interface Serial0/0
+r2650(config-if)#
+*Mar  1 00:02:18.963: %DHCP-6-ADDRESS_ASSIGN: Interface FastEthernet0/0 assigned DHCP address 10.0.0.211, mask 255.255.255.0, hostname r2650
+
+r2650(config-if)#description T1 to 3725 - local ISP
+r2650(config-if)#ip address 172/ .16.255.2 255.255.255.252
+r2650(config-if)#encapsulation hdlc
+r2650(config-if)#service-module t1 framing esf
+r2650(config-if)#service-module t1 linecode b8zs
+r2650(config-if)#service-module t1 clock source internal
+r2650(config-if)#service-module t1 timeslots 1-24
+r2650(config-if)#ip nat inside
+r2650(config-if)#no shutdown
+r2650(config-if)#
+*Mar  1 00:03:55.321: %LINK-3-UPDOWN: Interface Serial0/0, changed state to down
+r2650(config-if)#access-list 1 permit 172.16.255.0 0.0.0.3
+r2650(config)#ip nat inside source list 1 interface FastEthernet0/0 loverl      overload
+r2650(config)#copy running-config startup-config
+                ^
+% Invalid input detected at ‘^’ marker.
+
+r2650(config)#exit
+r2650#copy
+*Mar  1 00:09:31.833: %SYS-5-CONFIG_I: Configured from console by console r
+% Incomplete command.
+
+r2650#copy running con                copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration…
+[OK]
+r2650#show startup-config | begin interface                                     
+r2650#show startup-config
+Using 945 out of 29688 bytes
+!
+version 12.3
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname r2650
+!
+boot-start-marker
+boot system flash:c2600-ipvoice-mz.123-15.bin
+boot-end-marker
+!
+!
+no network-clock-participate slot 1 
+no network-clock-participate wic 0 
+no aaa new-model
+ip subnet-zero
+ip cef
+!
+!
+!
+!
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         interface FastEthernet0/0
+ —More—          ip address dhcp
+ —More—          ip nat outside
+ —More—          duplex auto
+ —More—          speed auto
+ —More—         !
+ —More—         interface Serial0/0
+ —More—          description T1 to 3725 - local ISP
+ —More—          ip address 172.16.255.2 255.255.255.252
+ —More—          ip nat inside
+ —More—          service-module t1 clock source internal
+ —More—          service-module t1 timeslots 1-24
+ —More—         !
+ —More—         interface Serial0/1
+ —More—          no ip address
+ —More—          shutdown
+ —More—         !
+ —More—         interface Serial0/2
+ —More—          no ip address
+ —More—          shutdown
+ —More—         !
+ —More—         ip nat inside source list 1 interface FastEthernet0/0 overload
+ —More—         ip classless
+ —More—         no ip http server
+ —More—         !
+ —More—         access-list 1 permit 172.16.255.0 0.0.0.3
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         !
+ —More—         line con 0
+ —More—         line aux 0
+ —More—         line vty 0 4
+ —More—          login
+ —More—         !
+ —More—         !
+ —More—         end
+ —More—         
+r2650#
